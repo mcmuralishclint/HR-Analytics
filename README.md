@@ -17,4 +17,10 @@ HR analytics is revolutionising the way human resources departments operate, lea
 11. Cross validation was used on the training data to check for the f1 score for each model
 12. LightBGM model proved to work the best. Model was finetuned by applying various values on each variable and an excel sheet was created to identify the suitable model.
 
- 
+# Things that did not work
+
+1. Linear models provided a low f1 score
+2. Random forest and decision tree models gave a maximum f1 score of 41
+3. Dropping missing values
+4. Without binning, low scores were obtained
+5. treating education field as a categorical variable 
